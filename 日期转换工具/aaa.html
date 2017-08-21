@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+//        var Xmas95 = new Date('December 25, 1995 23:15:30');
+//        var weekday = Xmas95.getDay();
+//
+//        console.log(weekday);//1
+//public getDay() : Number
+var d=new Date();
+
+var weekday=new Array(7);
+weekday[0]="星期日";
+weekday[1]="星期一";
+weekday[2]="星期二";
+weekday[3]="星期三";
+weekday[4]="星期四";
+weekday[5]="星期五";
+weekday[6]="星期六";
+
+document.write("Today it is " + weekday[d.getDay()])
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

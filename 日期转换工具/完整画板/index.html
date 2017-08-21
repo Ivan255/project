@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .canvasContatiner {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .canvasContatiner>canvas {
+            background-color:#2b2b2b ;
+            position: relative;
+        }
+        label{
+            position: absolute;
+            float: right;
+            top: 20px;
+            right: 15px;
+        }
+        .drawButton,.clearAll {
+            width: 63px;
+            height: 22px;
+            background-color: #ccc;
+            float: right;
+            position: absolute;
+            border-radius: 8px;
+            top: 55px;
+            right: 0;
+        }
+        .clearAll {
+            top: 85px;
+            right: 0;
+        }
+
+    </style>
+</head>
+<body>
+<!--<img src="11.jpg" alt="" id="scream" >-->
+<div class="canvasContatiner">
+    <canvas width="800" height="800" style="background-color: #c0c0c0"></canvas>
+</div>
+<label>菜单</label>
+<!--<button class="clearButton">橡皮檫</button>-->
+<button class="drawButton">绘制</button>
+<button class="clearAll">清屏</button>
+<script src="painter.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
